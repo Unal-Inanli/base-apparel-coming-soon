@@ -265,17 +265,6 @@ body {
 
 .content__form__input-container-error--active {
   display: block;
-  width: 28px;
-  height: 28px;
-  position: absolute;
-  background-image: url("../../images/icon-error.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  top: 50%;
-  right: 25%;
-  z-index: 99;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
 }
 
 @media (max-width: 500px) {
