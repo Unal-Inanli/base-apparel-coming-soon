@@ -253,7 +253,7 @@ body {
   width: 28px;
   height: 28px;
   position: absolute;
-  background-image: url("../../images/icon-error.svg");
+  background-image: url(".inherit/../../images/icon-error.svg");
   background-repeat: no-repeat;
   background-size: cover;
   top: 50%;
