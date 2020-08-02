@@ -11,7 +11,7 @@
     }
 
     &__background {
-        background-image: url('../../images/bg-pattern-desktop.svg');
+        background-image: url('.inherit/../../images/bg-pattern-desktop.svg');
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -66,24 +66,24 @@
             text-align: center;
         }
         span {
-            font-size: 5rem;
+            font-size: 4rem;
             color: $primaryColor;
             font-weight: 300;
             letter-spacing: 1.1rem;
         }
         
         strong {
-            font-size: 5rem;
+            font-size: 4rem;
             color :$neutralColor;
             letter-spacing: 1.1rem;
         }
 
         h5 {
             line-height: 1.8;
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: $primaryColor;
             font-weight: 400;
-
+            margin-bottom: 0;
             @include phone {
                 font-size: 1.9rem;
             }
